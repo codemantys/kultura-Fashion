@@ -1352,15 +1352,15 @@ async function submitOrder(){
   if(coReceiptUrl)    msg += '\n\n*Payment Receipt:* ' + coReceiptUrl;
   msg += '\n\nKindly confirm. Thank you!';
 
-  if(waNum){
-    window.open('https://wa.me/'+waNum+'?text='+encodeURIComponent(msg), '_blank', 'noopener');
-  }
-
   cart=[]; updCart();
   closeCheckout();
   toast('Order ' + coOrderId + ' submitted \u2713');
   btn.disabled=false;
   btn.innerHTML='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> I\'ve Paid \u2014 Notify Kultura';
+
+  if(waNum){
+    location.href = 'https://wa.me/'+waNum+'?text='+encodeURIComponent(msg);
+  }
 }
 
 

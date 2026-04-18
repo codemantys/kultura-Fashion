@@ -83,7 +83,7 @@ header.scrolled { top:0; box-shadow:var(--shadow); }
 /* ── HERO ── */
 .hero { min-height:calc(100vh - 106px); display:grid; grid-template-columns:1fr 1fr; overflow:hidden; }
 .hero-left { background:var(--ink); display:flex; flex-direction:column; justify-content:flex-end; padding:80px 64px; position:relative; overflow:hidden; }
-.hero-left::before { content:''; position:absolute; inset:0; background:url('https://iili.io/BgH9xpI.md.png') center/cover no-repeat; opacity:.25; }
+.hero-left::before { content:''; position:absolute; inset:0; background:url('https://iili.io/Bg7n494.jpg') center/cover no-repeat; opacity:.2; }
 .hero-tag { font-size:10px; font-weight:700; letter-spacing:4px; text-transform:uppercase; color:var(--gold); margin-bottom:20px; position:relative; z-index:1; }
 .hero-h1 { font-family:var(--ff-d); font-size:clamp(56px,7vw,96px); font-weight:300; line-height:.92; color:#fff; position:relative; z-index:1; letter-spacing:-1px; margin-bottom:28px; }
 .hero-h1 em { font-style:italic; color:var(--gold2); }
@@ -152,7 +152,7 @@ header.scrolled ~ .cat-bar, body.ann-hidden .cat-bar { top:72px; }
 /* ── COLLECTION BANNER ── */
 .coll-banner { display:grid; grid-template-columns:1fr 1fr; min-height:500px; }
 .cb-left { background:var(--ink); padding:80px 64px; display:flex; flex-direction:column; justify-content:center; position:relative; overflow:hidden; }
-.cb-left::before { content:''; position:absolute; inset:0; background:url('https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800') center/cover; opacity:.2; }
+.cb-left::before { content:''; position:absolute; inset:0; background:url('https://iili.io/Bg7nUcG.jpg') center/cover; opacity:.2; }
 .cb-content { position:relative; z-index:1; }
 .cb-tag { font-size:10px; font-weight:700; letter-spacing:4px; text-transform:uppercase; color:var(--gold); margin-bottom:16px; }
 .cb-h { font-family:var(--ff-d); font-size:clamp(40px,5vw,64px); font-weight:300; color:#fff; line-height:1; letter-spacing:-.5px; margin-bottom:16px; }
@@ -444,7 +444,7 @@ footer { background:var(--ink); color:rgba(255,255,255,.5); padding:64px 40px 32
 
 <!-- ANNOUNCEMENT BAR -->
 <div class="ann-bar">
-  Free delivery on orders over <span>₦50,000</span>  ·  New arrivals every week  ·  Follow us <span>@kultura.xii</span>
+  New collection dropping soon &nbsp;·&nbsp; Every piece is intentional &nbsp;·&nbsp; Follow us <span>@kultura.xii</span>
 </div>
 
 <!-- HEADER -->
@@ -464,7 +464,7 @@ footer { background:var(--ink); color:rgba(255,255,255,.5); padding:64px 40px 32
     <div class="hright">
       <button class="btn-ghost" onclick="goHome()" style="padding:8px 18px;font-size:10px;">Home</button>
       <button class="hicon" onclick="openCart()" title="Cart">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
         <span class="cart-dot" id="CBDG" style="display:none;">0</span>
       </button>
       <button class="burger" id="BURGER" onclick="toggleMNav()">
@@ -489,10 +489,10 @@ footer { background:var(--ink); color:rgba(255,255,255,.5); padding:64px 40px 32
   <div class="mnav-foot">
     <div class="mnav-social">
       <a href="https://tiktok.com/@kultura.xii" target="_blank" class="fsoc-a" title="TikTok">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.27 8.27 0 0 0 4.84 1.55V6.79a4.85 4.85 0 0 1-1.07-.1z"></path></svg>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.27 8.27 0 0 0 4.84 1.55V6.79a4.85 4.85 0 0 1-1.07-.1z"/></svg>
       </a>
       <a href="https://snapchat.com/add/bat_dude0" target="_blank" class="fsoc-a" title="Snapchat">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12.166 2c1.817 0 5.852.504 5.852 5.208v.913c.309.166.993.21 1.499.105.044-.011.088-.017.133-.017a.7.7 0 0 1 .692.589c.014.092.062.4-.27.73-.162.164-.977.762-2.658 1.182.066.187.133.38.2.574.088.252.184.502.27.752.133.39-.022.656-.226.827l-.057.043c-.47.297-.955.318-1.364.334-.476.018-.898.018-1.189.3a4.456 4.456 0 0 0-.424.548c-.46.698-1.09 1.656-2.456 1.656-.025 0-.05-.001-.075-.002-.025.001-.05.002-.075.002-1.366 0-1.996-.958-2.456-1.656a4.456 4.456 0 0 0-.424-.548c-.291-.282-.713-.282-1.189-.3-.409-.016-.894-.037-1.364-.334l-.057-.043c-.204-.171-.359-.437-.226-.827.086-.25.182-.5.27-.752.067-.194.134-.387.2-.574-1.681-.42-2.496-1.018-2.658-1.182-.332-.33-.284-.638-.27-.73a.7.7 0 0 1 .692-.589c.045 0 .089.006.133.017.506.105 1.19.061 1.499-.105v-.913C6.148 2.504 10.183 2 12 2h.166z"></path></svg>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12.166 2c1.817 0 5.852.504 5.852 5.208v.913c.309.166.993.21 1.499.105.044-.011.088-.017.133-.017a.7.7 0 0 1 .692.589c.014.092.062.4-.27.73-.162.164-.977.762-2.658 1.182.066.187.133.38.2.574.088.252.184.502.27.752.133.39-.022.656-.226.827l-.057.043c-.47.297-.955.318-1.364.334-.476.018-.898.018-1.189.3a4.456 4.456 0 0 0-.424.548c-.46.698-1.09 1.656-2.456 1.656-.025 0-.05-.001-.075-.002-.025.001-.05.002-.075.002-1.366 0-1.996-.958-2.456-1.656a4.456 4.456 0 0 0-.424-.548c-.291-.282-.713-.282-1.189-.3-.409-.016-.894-.037-1.364-.334l-.057-.043c-.204-.171-.359-.437-.226-.827.086-.25.182-.5.27-.752.067-.194.134-.387.2-.574-1.681-.42-2.496-1.018-2.658-1.182-.332-.33-.284-.638-.27-.73a.7.7 0 0 1 .692-.589c.045 0 .089.006.133.017.506.105 1.19.061 1.499-.105v-.913C6.148 2.504 10.183 2 12 2h.166z"/></svg>
       </a>
     </div>
     <div style="font-size:11px;color:var(--muted);letter-spacing:.5px;">salamifaoz3@gmail.com</div>
@@ -513,16 +513,16 @@ footer { background:var(--ink); color:rgba(255,255,255,.5); padding:64px 40px 32
   </div>
   <div class="hero-right">
     <div class="hero-right-top" onclick="filterCat('women')">
-      <img src="https://iili.io/BgH9xpI.md.png" alt="Women's Collection">
+      <img src="https://iili.io/Bg7nPN2.jpg" alt="Women's Collection">
       <div class="hrb-label" style="bottom:20px;left:20px;"><span>Women's Collection</span></div>
     </div>
     <div class="hero-right-bottom">
       <div class="hrb-cell" onclick="filterCat('men')">
-        <img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=400&q=80" alt="Men">
+        <img src="https://iili.io/Bg7n494.jpg" alt="Men">
         <div class="hrb-label"><span>Men</span></div>
       </div>
       <div class="hrb-cell" onclick="filterCat('children')">
-        <img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=400&q=80" alt="Children">
+        <img src="https://iili.io/Bg7nUcG.jpg" alt="Children">
         <div class="hrb-label"><span>Children</span></div>
       </div>
     </div>
@@ -570,7 +570,7 @@ footer { background:var(--ink); color:rgba(255,255,255,.5); padding:64px 40px 32
 <div class="pdp-ov" id="PDPOV">
   <div class="pdp-topbar">
     <button class="pdp-back" onclick="closePDP()">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 12H5M12 5l-7 7 7 7"></path></svg>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
       Back
     </button>
     <span class="pdp-bc" id="PDPBC">Collection</span>
@@ -615,8 +615,8 @@ footer { background:var(--ink); color:rgba(255,255,255,.5); padding:64px 40px 32
     </div>
   </div>
   <div class="cb-right">
-    <div class="cbc" onclick="filterCat('women')"><img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=500&q=80" alt="Women"></div>
-    <div class="cbc" onclick="filterCat('men')"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&q=80" alt="Men"></div>
+    <div class="cbc" onclick="filterCat('women')"><img src="https://iili.io/Bg7nent.jpg" alt="Women"></div>
+    <div class="cbc" onclick="filterCat('men')"><img src="https://iili.io/Bg7nPN2.jpg" alt="Men"></div>
   </div>
 </div>
 
@@ -624,7 +624,7 @@ footer { background:var(--ink); color:rgba(255,255,255,.5); padding:64px 40px 32
 <div class="editorial">
   <div class="editorial-tag">The Kultura Story</div>
   <h2 class="editorial-h">Fashion is<br><em>Identity.</em></h2>
-  <p class="editorial-p">We believe clothing is a language. Every thread, every cut, every silhouette speaks to who you are and where you come from. That's Kultura.</p>
+  <p class="editorial-p">Every detail is deliberate. Every number has a story. Every placement carries energy. Nothing is random. Nothing is accidental.</p>
   <button class="btn-gold" onclick="filterCat('all')">Shop the Story →</button>
 </div>
 
@@ -633,9 +633,10 @@ footer { background:var(--ink); color:rgba(255,255,255,.5); padding:64px 40px 32
   <h2 class="nl-h">Stay in the <em style="font-family:var(--ff-d);font-style:italic;color:var(--gold);">Loop</em></h2>
   <p class="nl-p">New arrivals, exclusive drops, and styling inspiration — straight to your inbox.</p>
   <div class="nl-form">
-    <input class="nl-input" type="email" placeholder="your@email.com">
-    <button class="nl-btn" onclick="toast('Subscribed ✓')">Subscribe</button>
+    <input class="nl-input" type="email" id="NL_INPUT" placeholder="your@email.com">
+    <button class="nl-btn" onclick="nlSubscribe()">Subscribe</button>
   </div>
+  <p id="NL_MSG" style="display:none;margin-top:16px;font-size:12px;color:var(--gold);letter-spacing:1px;">✦ Coming soon — we'll notify you when we launch.</p>
 </div>
 
 <!-- ═══════════ FOOTER ═══════════ -->
@@ -646,13 +647,13 @@ footer { background:var(--ink); color:rgba(255,255,255,.5); padding:64px 40px 32
       <p class="foot-tag">Fashion rooted in identity. Contemporary pieces inspired by culture, crafted for those who move with intention.</p>
       <div class="foot-social">
         <a href="https://tiktok.com/@kultura.xii" target="_blank" class="fsoc-a" title="TikTok">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.27 8.27 0 0 0 4.84 1.55V6.79a4.85 4.85 0 0 1-1.07-.1z"></path></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.27 8.27 0 0 0 4.84 1.55V6.79a4.85 4.85 0 0 1-1.07-.1z"/></svg>
         </a>
         <a href="https://snapchat.com/add/bat_dude0" target="_blank" class="fsoc-a" title="Snapchat">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12.166 2c1.817 0 5.852.504 5.852 5.208v.913c.309.166.993.21 1.499.105.044-.011.088-.017.133-.017a.7.7 0 0 1 .692.589c.014.092.062.4-.27.73-.162.164-.977.762-2.658 1.182.066.187.133.38.2.574.088.252.184.502.27.752.133.39-.022.656-.226.827l-.057.043c-.47.297-.955.318-1.364.334-.476.018-.898.018-1.189.3a4.456 4.456 0 0 0-.424.548c-.46.698-1.09 1.656-2.456 1.656-.025 0-.05-.001-.075-.002-.025.001-.05.002-.075.002-1.366 0-1.996-.958-2.456-1.656a4.456 4.456 0 0 0-.424-.548c-.291-.282-.713-.282-1.189-.3-.409-.016-.894-.037-1.364-.334l-.057-.043c-.204-.171-.359-.437-.226-.827.086-.25.182-.5.27-.752.067-.194.134-.387.2-.574-1.681-.42-2.496-1.018-2.658-1.182-.332-.33-.284-.638-.27-.73a.7.7 0 0 1 .692-.589c.045 0 .089.006.133.017.506.105 1.19.061 1.499-.105v-.913C6.148 2.504 10.183 2 12 2h.166z"></path></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12.166 2c1.817 0 5.852.504 5.852 5.208v.913c.309.166.993.21 1.499.105.044-.011.088-.017.133-.017a.7.7 0 0 1 .692.589c.014.092.062.4-.27.73-.162.164-.977.762-2.658 1.182.066.187.133.38.2.574.088.252.184.502.27.752.133.39-.022.656-.226.827l-.057.043c-.47.297-.955.318-1.364.334-.476.018-.898.018-1.189.3a4.456 4.456 0 0 0-.424.548c-.46.698-1.09 1.656-2.456 1.656-.025 0-.05-.001-.075-.002-.025.001-.05.002-.075.002-1.366 0-1.996-.958-2.456-1.656a4.456 4.456 0 0 0-.424-.548c-.291-.282-.713-.282-1.189-.3-.409-.016-.894-.037-1.364-.334l-.057-.043c-.204-.171-.359-.437-.226-.827.086-.25.182-.5.27-.752.067-.194.134-.387.2-.574-1.681-.42-2.496-1.018-2.658-1.182-.332-.33-.284-.638-.27-.73a.7.7 0 0 1 .692-.589c.045 0 .089.006.133.017.506.105 1.19.061 1.499-.105v-.913C6.148 2.504 10.183 2 12 2h.166z"/></svg>
         </a>
         <a href="mailto:salamifaoz3@gmail.com" class="fsoc-a" title="Email">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
         </a>
       </div>
     </div>
@@ -674,21 +675,21 @@ footer { background:var(--ink); color:rgba(255,255,255,.5); padding:64px 40px 32
     <div class="foot-col">
       <h5>Contact</h5>
       <div class="contact-item">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
         salamifaoz3@gmail.com
       </div>
       <div class="contact-item">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.27 8.27 0 0 0 4.84 1.55V6.79a4.85 4.85 0 0 1-1.07-.1z"></path></svg>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.27 8.27 0 0 0 4.84 1.55V6.79a4.85 4.85 0 0 1-1.07-.1z"/></svg>
         @kultura.xii
       </div>
       <div class="contact-item">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12.166 2c1.817 0 5.852.504 5.852 5.208v.913c.309.166.993.21 1.499.105.044-.011.088-.017.133-.017a.7.7 0 0 1 .692.589c.014.092.062.4-.27.73-.162.164-.977.762-2.658 1.182.066.187.133.38.2.574.088.252.184.502.27.752.133.39-.022.656-.226.827l-.057.043c-.47.297-.955.318-1.364.334-.476.018-.898.018-1.189.3a4.456 4.456 0 0 0-.424.548c-.46.698-1.09 1.656-2.456 1.656-.025 0-.05-.001-.075-.002-.025.001-.05.002-.075.002-1.366 0-1.996-.958-2.456-1.656a4.456 4.456 0 0 0-.424-.548c-.291-.282-.713-.282-1.189-.3-.409-.016-.894-.037-1.364-.334l-.057-.043c-.204-.171-.359-.437-.226-.827.086-.25.182-.5.27-.752.067-.194.134-.387.2-.574-1.681-.42-2.496-1.018-2.658-1.182-.332-.33-.284-.638-.27-.73a.7.7 0 0 1 .692-.589c.045 0 .089.006.133.017.506.105 1.19.061 1.499-.105v-.913C6.148 2.504 10.183 2 12 2h.166z"></path></svg>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12.166 2c1.817 0 5.852.504 5.852 5.208v.913c.309.166.993.21 1.499.105.044-.011.088-.017.133-.017a.7.7 0 0 1 .692.589c.014.092.062.4-.27.73-.162.164-.977.762-2.658 1.182.066.187.133.38.2.574.088.252.184.502.27.752.133.39-.022.656-.226.827l-.057.043c-.47.297-.955.318-1.364.334-.476.018-.898.018-1.189.3a4.456 4.456 0 0 0-.424.548c-.46.698-1.09 1.656-2.456 1.656-.025 0-.05-.001-.075-.002-.025.001-.05.002-.075.002-1.366 0-1.996-.958-2.456-1.656a4.456 4.456 0 0 0-.424-.548c-.291-.282-.713-.282-1.189-.3-.409-.016-.894-.037-1.364-.334l-.057-.043c-.204-.171-.359-.437-.226-.827.086-.25.182-.5.27-.752.067-.194.134-.387.2-.574-1.681-.42-2.496-1.018-2.658-1.182-.332-.33-.284-.638-.27-.73a.7.7 0 0 1 .692-.589c.045 0 .089.006.133.017.506.105 1.19.061 1.499-.105v-.913C6.148 2.504 10.183 2 12 2h.166z"/></svg>
         @bat_dude0
       </div>
     </div>
   </div>
   <div class="foot-btm" style="max-width:1400px;margin:0 auto;">
-    <span>© 2025 Kultura. All rights reserved.</span>
+    <span>© <span id="COPY_YEAR"></span> Kultura. All rights reserved.</span>
     <span style="letter-spacing:.5px;">Wear Your Culture.</span>
   </div>
 </footer>
@@ -815,13 +816,13 @@ footer { background:var(--ink); color:rgba(255,255,255,.5); padding:64px 40px 32
   </div>
   <div class="cd-items" id="CITEMS">
     <div class="cd-empty">
-      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
       <p>Your cart is empty</p>
       <span style="font-size:12px;">Add pieces you love</span>
     </div>
   </div>
   <div class="cd-alert" id="CART_ALERT">
-    <div class="cd-alert-title">⚠ Cart Updated</div>
+    <div class="cd-alert-title">&#9888; Cart Updated</div>
     <div class="cd-alert-list" id="CART_ALERT_LIST"></div>
   </div>
   <div class="cd-foot">
@@ -829,7 +830,7 @@ footer { background:var(--ink); color:rgba(255,255,255,.5); padding:64px 40px 32
     <div class="cd-total"><span>Total</span><strong id="CTOT">₦0.00</strong></div>
     <p class="cd-note">Shipping calculated at checkout</p>
     <div id="CART_CHECKOUT_BTN">
-      <button class="btn-dark" style="width:100%;justify-content:center;" onclick="openCheckout()">Checkout →</button>
+      <button class="btn-dark" style="width:100%;justify-content:center;" onclick="openCheckout()">Checkout &#8594;</button>
     </div>
     <button class="btn-ghost" style="width:100%;justify-content:center;margin-top:8px;" onclick="closeCart()">Continue Shopping</button>
   </div>
@@ -886,7 +887,7 @@ footer { background:var(--ink); color:rgba(255,255,255,.5); padding:64px 40px 32
     </div>
 
     <button class="btn-dark co-submit" id="CO_SUBMIT_BTN" onclick="submitOrder()">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
       I've Paid — Notify Kultura
     </button>
   </div>
@@ -1033,7 +1034,7 @@ function mkCard(p){
       ${badge}
       <div class="pc-actions">
         <button class="pca-btn" onclick="event.stopPropagation();quickAddToCart('${p.id}')" title="Quick Add">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
         </button>
       </div>
     </div>
@@ -1214,7 +1215,7 @@ function updCart(){
 
   const el = document.getElementById('CITEMS');
   if(!cart.length){
-    el.innerHTML=`<div class="cd-empty"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg><p>Your cart is empty</p><span style="font-size:12px;">Add pieces you love</span></div>`;
+    el.innerHTML=`<div class="cd-empty"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg><p>Your cart is empty</p><span style="font-size:12px;">Add pieces you love</span></div>`;
     return;
   }
   el.innerHTML = cart.map(c=>{
@@ -1359,7 +1360,7 @@ async function submitOrder(){
   closeCheckout();
   toast('Order ' + coOrderId + ' submitted \u2713');
   btn.disabled=false;
-  btn.innerHTML='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> I\'ve Paid \u2014 Notify Kultura';
+  btn.innerHTML='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> I\'ve Paid \u2014 Notify Kultura';
 }
 
 
@@ -1517,14 +1518,28 @@ document.addEventListener('keydown', e=>{
   if(e.key==='Escape'){ closePDP(); closeCart(); closeCheckout(); closeSizeGuide(); closeMNav(); }
 });
 
+// ── NEWSLETTER ──────────────────────────────
+function nlSubscribe(){
+  const input = document.getElementById('NL_INPUT');
+  const msg   = document.getElementById('NL_MSG');
+  if(!input || !input.value.trim()){ toast('Please enter your email'); return; }
+  input.style.display = 'none';
+  input.nextElementSibling.style.display = 'none'; // hide button
+  msg.style.display = 'block';
+}
+
 // ── INIT ──────────────────────────────────────
 (function init(){
   document.getElementById('SP').style.display='none';
   document.getElementById('COLL_BNR').style.display='none';
-  // Homepage shows immediately — products load when user navigates to shop
+
+  // Dynamic copyright year
+  const yr = document.getElementById('COPY_YEAR');
+  if(yr) yr.textContent = new Date().getFullYear();
+
+  // Load cached products immediately
   const cached = loadProductCache();
   if(cached && cached.length) applyProducts(cached, true);
-  // Firebase will update in background regardless
 })();
 </script>
 
